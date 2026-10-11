@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bodob\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj": {}
+    "C:\\Users\\Bercel\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bodob\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj": {
+    "C:\\Users\\Bercel\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bodob\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj",
+        "projectUniqueName": "C:\\Users\\Bercel\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj",
         "projectName": "Blackjack",
-        "projectPath": "C:\\Users\\bodob\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj",
-        "packagesPath": "C:\\Users\\bodob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bodob\\source\\repos\\Blackjack\\Blackjack\\obj\\",
+        "projectPath": "C:\\Users\\Bercel\\source\\repos\\Blackjack\\Blackjack\\Blackjack.csproj",
+        "packagesPath": "C:\\Users\\Bercel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bercel\\source\\repos\\Blackjack\\Blackjack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\VS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bodob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bercel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "framework": "net5.0",
             "targetAlias": "net5.0",
             "projectReferences": {}
           }
@@ -39,10 +40,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net5.0": {
+          "framework": "net5.0",
           "targetAlias": "net5.0",
           "imports": [
             "net461",
@@ -50,16 +58,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
